@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap" rel="styleshe et">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Loja Virtual</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h2 class="titulo">Loja MilGrau</h2>
+        <div>
+            <nav>
+                <ul class="menu">
+                    <li ><a class="menu-item"href="../index.html">Início</a></li>
+                    <li ><a class="menu-item"href="./pages/login.html">Login</a></li>
+                    <li ><a class="menu-item"href="#">Carrinho</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div >
+
+            <form action=""class="formulario">
+
+                <label for="">Nome</label>
+                <input type="text" name="" id="input-nome" required placeholder="Nome">
+
+                <label for="">Sobrenome</label>
+                <input type="text" name="" id="input-sobrenome" required placeholder="Sobrenome">
+
+                <label for="">Data de Nascimento</label>
+                <input type="date" name="" id="input-data" required>
+
+                <label for="">CEP</label>
+                <input type="text" id="input-cep" required>
+
+                <label for="">Edereço</label>
+                <input type="text" id="input-endereco" required>
+
+                <label for="">Estado</label>
+                <input type="text" id="input-estado">
+
+                <label for="">Cidade</label>
+                <input type="text" id="input-cidade">
+
+                <label for="">Email</label>
+                <input type="email" name="" id="input-email" required placeholder="fulanodetal@email.com">
+
+                <label for="">Senha:</label>
+                <input type="password" name="" id="input-senha" required placeholder="Senha"
+                pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$"
+                title="A senha deve conter oito caracteres, incluindo uma letra maiúscula, uma letra minúscula e um número ou caractere especial.">
+
+                <input class="botao"type="button" value="Entrar" onclick="validar()">
+
+            </form>
+
+        </div>
+
+        
+
+    </main>
+</body>
+<script src="../script/login.js"></script>
+</html>

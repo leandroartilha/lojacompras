@@ -1,0 +1,35 @@
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin: 4em 0 0 4em;
+}
+input{
+    width: 25%;
+    font-family: 'Shippori Antique', sans-serif;
+    font-size: 1em;
+    height: 1.5em;
+}
+
+label{
+    margin-top: 1em;
+    font-family: 'Shippori Antique', sans-serif;
+}
+
+.botao{
+    font-size: 1.3em;
+    margin-top: 1.4em;
+    width: 8em;
+    background-color: lawngreen;
+    border-style: none;
+    border-radius: 0.3em;
+    font-family: 'Shippori Antique', sans-serif;
+}
+
+.botao:hover{
+    background-color: teal;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+

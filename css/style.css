@@ -1,0 +1,108 @@
+header{
+    background-color: chartreuse;
+    margin-bottom: 3em;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 3em 14em 2em 14em;
+    
+}
+
+.titulo{
+    font-size: 2.4em;
+    font-family: 'Montagu Slab', serif;
+}
+
+.menu{
+    display: flex;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.menu-item{
+    margin-right: 1em;
+    text-decoration: none;
+    color:black;
+    font-family: 'Arimo', sans-serif;
+}
+
+.menu-item:hover{
+    color:blueviolet;
+}
+
+
+#produtos{
+    display:flex;
+    margin-left: 2em;
+    flex-wrap: wrap;
+}
+
+.lista-produtos{
+    margin-left: 2em;
+    margin-top: 2em;
+    background-color:chartreuse;
+    border-radius: 1em 1em 0 0;
+    padding-bottom: 0.5em;
+    
+}
+
+.imgTam{
+    height: 14em;
+    width: 17em;
+    border-radius: 1em 1em 0 0;
+}
+
+.texto-produto{
+    padding-left: 0.5em;
+    font-size: 1.4em;
+    font-family: 'M PLUS 1', sans-serif;
+    padding-bottom: 0.2em;
+    padding-top: 0.1em;
+}
+.texto-preco{
+    padding-left: 0.5em;
+    font-size: 1.4em;
+    font-family: 'M PLUS 1', sans-serif;
+    padding-bottom: 0.2em;
+    padding-top: 0.1em;
+}
+
+.texto-adicionar{
+    padding-left: 0.5em;
+    font-family: 'M PLUS 1', sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.texto-adicionar:hover{
+    color:blueviolet;
+
+}
+
+.meio{
+    display: flex;
+}
+
+.titulo-carrinho{
+    font-size: 1.4em;
+    margin-top: 0.5em;
+    font-family: 'M PLUS 1', sans-serif;
+}
+
+.bloco-carrinho{
+    margin-left: 1em;
+    margin-top: 1.2em;
+
+}
+
+.texto-carrinho{
+    font-size: 1.5em;
+    font-family: 'M PLUS 1', sans-serif;
+
+}
+
+
